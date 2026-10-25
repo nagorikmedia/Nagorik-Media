@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Nagorik Media — পশ্চিমবঙ্গ, ভারত, বিশ্ব, রাজনীতি ও মানুষের খবর।">
+<title>Nagorik Media | আপনার খবর, আপনার কণ্ঠস্বর</title>
+<style>
+:root{--red:#bd2026;--dark:#171717;--muted:#666;--line:#e7e7e7;--paper:#fff;--soft:#f5f5f5}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Bengali","Hind Siliguri",sans-serif;color:var(--dark);background:#f4f4f4;line-height:1.55}
+a{color:inherit;text-decoration:none}.topline{background:#171717;color:#fff;font-size:13px;padding:7px 0}.wrap{width:min(1160px,92%);margin:auto}.topline .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brandbar{background:#fff;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:13px;padding:20px 0}.logo{background:var(--red);color:white;font-weight:900;font-size:20px;display:grid;place-items:center;width:58px;height:58px;border-radius:8px;letter-spacing:-1px}.brand h1{font-size:clamp(26px,4vw,38px);line-height:1;margin:0;font-weight:900;letter-spacing:-1px}.tagline{margin:6px 0 0;color:#666;font-size:14px}.nav{background:var(--red);color:white}.nav .wrap{display:flex;gap:0;overflow-x:auto}.nav a{padding:13px 16px;white-space:nowrap;font-weight:700;font-size:14px}.nav a:hover{background:#92171c}.ticker{background:#fff;border-bottom:1px solid var(--line);padding:10px 0}.ticker .wrap{display:flex;align-items:center;gap:12px}.breaking{background:var(--red);color:white;font-weight:800;padding:5px 9px;border-radius:3px;white-space:nowrap;font-size:13px}.tickertext{font-size:14px}
+main{padding:24px 0 45px}.sectionhead{display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--red);margin-bottom:16px}.sectionhead h2{font-size:22px;margin:0;padding:0 0 8px}.sectionhead span{font-size:12px;color:var(--muted)}
+.leadgrid{display:grid;grid-template-columns:1.45fr 1fr;gap:18px;margin-bottom:28px}.lead{background:#fff;border:1px solid var(--line);overflow:hidden;border-radius:8px}.heroart{height:300px;background:linear-gradient(135deg,#64171a,#bd2026 48%,#f1b45c);color:#fff;display:flex;flex-direction:column;justify-content:end;padding:24px;position:relative;overflow:hidden}.heroart:before{content:"";position:absolute;width:300px;height:300px;border:35px solid #ffffff20;border-radius:50%;right:-45px;top:-80px}.heroart:after{content:"";position:absolute;width:160px;height:160px;border:20px solid #ffffff20;border-radius:50%;right:95px;top:40px}.heroart>*{position:relative}.heroart small{font-weight:800;letter-spacing:1px}.heroart h2{font-size:clamp(26px,4vw,42px);line-height:1.2;margin:10px 0}.leadbody{padding:16px 19px}.meta{color:#777;font-size:12px}.leadbody p{margin:8px 0 0;color:#555}.sidelead{display:grid;grid-template-rows:1fr 1fr;gap:18px}.mini{background:#fff;border:1px solid var(--line);border-radius:8px;display:grid;grid-template-columns:38% 1fr;overflow:hidden;min-height:140px}.miniart{background:linear-gradient(135deg,#2b3545,#7a8a9c);display:grid;place-items:center;color:#fff;font-size:35px}.mini:nth-child(2) .miniart{background:linear-gradient(135deg,#225b47,#81b59b)}.minibody{padding:14px}.category{font-size:12px;font-weight:800;color:var(--red)}.minibody h3{font-size:18px;line-height:1.35;margin:6px 0 8px}.minibody p{font-size:13px;color:#666;margin:0}
+.contentgrid{display:grid;grid-template-columns:1fr 310px;gap:24px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}.cardart{height:125px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#dedede,#f7f7f7);font-size:38px}.cardbody{padding:14px}.card h3{font-size:18px;line-height:1.4;margin:7px 0}.card p{font-size:14px;color:#555;margin:0 0 10px}.sidebarbox{background:#fff;border:1px solid var(--line);border-radius:8px;padding:17px;margin-bottom:17px}.sidebarbox h3{margin:0 0 12px;font-size:18px;border-bottom:2px solid var(--red);padding-bottom:9px}.trend{padding:10px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}.trend:last-child{border-bottom:0}.num{font-weight:900;color:var(--red);font-size:22px}.trend strong{font-size:14px;line-height:1.4}.about{color:#555;font-size:14px}.footer{background:#171717;color:#eee;padding:28px 0}.footerinner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer p{margin:7px 0;color:#bbb;font-size:13px}.disclaimer{font-size:12px;color:#aaa;max-width:600px}.demo{display:inline-block;background:#fff1c2;color:#6d4b00;padding:3px 7px;border-radius:4px;font-size:11px;font-weight:800}
+@media(max-width:760px){.leadgrid,.contentgrid{grid-template-columns:1fr}.heroart{height:260px}.sidelead{grid-template-rows:auto}.mini{min-height:130px}.contentgrid{gap:16px}.cards{gap:12px}.cardart{height:105px}.nav a{padding:12px 13px}.brand{padding:16px 0}}
+@media(max-width:480px){.cards{grid-template-columns:1fr}.mini{grid-template-columns:34% 1fr}.minibody h3{font-size:16px}.heroart{height:240px;padding:18px}.leadbody{padding:14px}.topline .wrap{font-size:12px}}
+</style>
+</head>
+<body>
+<div class="topline"><div class="wrap"><span id="today">আজকের খবর • বাংলা সংবাদ</span><span>সত্যের সন্ধানে, মানুষের পাশে</span></div></div>
+<header class="brandbar"><div class="wrap brand"><div class="logo">NM</div><div><h1>NAGORIK MEDIA</h1><p class="tagline">আপনার খবর, আপনার কণ্ঠস্বর</p></div></div></header>
+<nav class="nav"><div class="wrap"><a href="#home">হোম</a><a href="#west-bengal">পশ্চিমবঙ্গ</a><a href="#india">ভারত</a><a href="#world">বিশ্ব</a><a href="#politics">রাজনীতি</a><a href="#society">সমাজ</a><a href="#viral">ভাইরাল</a><a href="#entertainment">বিনোদন</a></div></nav>
+<div class="ticker"><div class="wrap"><span class="breaking">ব্রেকিং নিউজ</span><span class="tickertext">Nagorik Media-তে স্বাগতম — আপনার এলাকার খবর ও গুরুত্বপূর্ণ ঘটনাগুলি এখানে প্রকাশ করুন।</span></div></div>
+<main class="wrap" id="home">
+<div class="sectionhead"><h2>আজকের প্রধান খবর</h2><span>নমুনা হোমপেজ</span></div>
+<section class="leadgrid">
+<article class="lead"><div class="heroart"><small>বিশেষ প্রতিবেদন</small><h2>আপনার খবর, আপনার কণ্ঠস্বর</h2><span>পশ্চিমবঙ্গ থেকে দেশ-বিদেশের খবর—এক জায়গায়</span></div><div class="leadbody"><span class="category">নাগরিক মিডিয়া</span><p>এটি আপনার ওয়েবসাইটের প্রধান খবরের নমুনা। অ্যাডমিন ব্যবস্থাপনা যুক্ত হলে এখান থেকে আসল খবর, ছবি ও প্রতিবেদন প্রকাশ করা যাবে।</p><div class="meta">সম্পাদকীয় ডেস্ক • নমুনা কনটেন্ট</div></div></article>
+<div class="sidelead">
+<article class="mini"><div class="miniart">🗞️</div><div class="minibody"><span class="category">পশ্চিমবঙ্গ</span><h3>আপনার এলাকার গুরুত্বপূর্ণ খবর তুলে ধরুন</h3><p>স্থানীয় সংবাদ ও জনসমস্যা</p></div></article>
+<article class="mini"><div class="miniart">🌍</div><div class="minibody"><span class="category">ভারত ও বিশ্ব</span><h3>দেশ-বিদেশের ঘটনায় থাকুন আপডেট</h3><p>সংবাদ, বিশ্লেষণ ও তথ্য</p></div></article>
+</div>
+</section>
+<div class="contentgrid">
+<section>
+<div class="sectionhead"><h2>সর্বশেষ খবর</h2><span>নমুনা প্রতিবেদন</span></div>
+<div class="cards">
+<article class="card" id="west-bengal"><div class="cardart">🏙️</div><div class="cardbody"><span class="category">পশ্চিমবঙ্গ</span><h3>স্থানীয় খবর ও মানুষের কথা</h3><p>এখানে জেলার খবর, প্রশাসনিক আপডেট এবং সাধারণ মানুষের সমস্যার কথা প্রকাশ করুন।</p><div class="meta">নমুনা • ২ মিনিটে পড়ুন</div></div></article>
+<article class="card" id="india"><div class="cardart">🇮🇳</div><div class="cardbody"><span class="category">ভারত</span><h3>জাতীয় খবরের জন্য আলাদা বিভাগ</h3><p>গুরুত্বপূর্ণ জাতীয় ঘটনা, সরকারি ঘোষণা ও জনস্বার্থের প্রতিবেদন।</p><div class="meta">নমুনা • ৩ মিনিটে পড়ুন</div></div></article>
+<article class="card" id="politics"><div class="cardart">🎙️</div><div class="cardbody"><span class="category">রাজনীতি</span><h3>রাজনীতি ও জনস্বার্থের বিশ্লেষণ</h3><p>তথ্যসূত্র যাচাই করে বিভিন্ন রাজনৈতিক ও সামাজিক বিষয় তুলে ধরুন।</p><div class="meta">নমুনা • ৪ মিনিটে পড়ুন</div></div></article>
+<article class="card" id="viral"><div class="cardart">📱</div><div class="cardbody"><span class="category">ভাইরাল ও মানবিক গল্প</span><h3>সোশ্যাল মিডিয়ায় আলোচনায় থাকা ঘটনা</h3><p>ভাইরাল গল্প প্রকাশের সময় মূল সূত্র ও প্রেক্ষাপট উল্লেখ করুন।</p><div class="meta">নমুনা • ২ মিনিটে পড়ুন</div></div></article>
+<article class="card" id="world"><div class="cardart">🌐</div><div class="cardbody"><span class="category">বিশ্ব</span><h3>আন্তর্জাতিক সংবাদ</h3><p>বিশ্বের গুরুত্বপূর্ণ ঘটনা ও তার প্রভাব সহজ বাংলায় তুলে ধরুন।</p><div class="meta">নমুনা • ৩ মিনিটে পড়ুন</div></div></article>
+<article class="card" id="society"><div class="cardart">🤝</div><div class="cardbody"><span class="category">সমাজ</span><h3>মানুষের সমস্যা, মানুষের কণ্ঠ</h3><p>শিক্ষা, স্বাস্থ্য, পরিবেশ ও নাগরিক অধিকারের বিষয়গুলি সামনে আনুন।</p><div class="meta">নমুনা • ৩ মিনিটে পড়ুন</div></div></article>
+</div>
+</section>
+<aside>
+<div class="sidebarbox"><h3>জনপ্রিয় বিভাগ</h3><div class="trend"><span class="num">01</span><strong>পশ্চিমবঙ্গের খবর</strong></div><div class="trend"><span class="num">02</span><strong>রাজনীতি ও নির্বাচন</strong></div><div class="trend"><span class="num">03</span><strong>ভাইরাল ও মানবিক গল্প</strong></div><div class="trend"><span class="num">04</span><strong>দেশ-বিদেশ</strong></div></div>
+<div class="sidebarbox"><h3>আমাদের সম্পর্কে</h3><p class="about">Nagorik Media একটি বাংলা ডিজিটাল সংবাদমাধ্যমের জন্য তৈরি নমুনা ওয়েবসাইট। লক্ষ্য—জনস্বার্থের খবর, সামাজিক বিষয় ও মানুষের কণ্ঠস্বর তুলে ধরা।</p></div>
+<div class="sidebarbox"><h3>সম্পাদকের জন্য নোট</h3><p class="about">এখানে প্রদর্শিত খবরগুলি নমুনা। প্রকাশের আগে প্রকৃত তথ্য, তারিখ, ছবি ব্যবহারের অধিকার এবং সূত্র যাচাই করুন।</p><span class="demo">ডেমো কনটেন্ট</span></div>
+</aside>
+</div>
+</main>
+<footer class="footer"><div class="wrap footerinner"><div><strong style="font-size:22px">NAGORIK MEDIA</strong><p>আপনার খবর, আপনার কণ্ঠস্বর</p></div><div><strong>যোগাযোগ</strong><p>এখানে আপনার ইমেল ও যোগাযোগের তথ্য যোগ করুন</p></div><p class="disclaimer">© <span id="year"></span> Nagorik Media. সর্বস্বত্ব সংরক্ষিত। এটি একটি বিনামূল্যে শুরু করার উপযোগী স্ট্যাটিক ডেমো; খবর প্রকাশের অ্যাডমিন প্যানেল ও লাইভ ডেটাবেস এখনও যুক্ত করা হয়নি।</p></div></footer>
+<script>
+const d=new Date();document.getElementById('year').textContent=d.getFullYear();
+document.getElementById('today').textContent='আজ: '+d.toLocaleDateString('bn-BD',{year:'numeric',month:'long',day:'numeric'})+' • বাংলা সংবাদ';
+</script>
+</body></html>
